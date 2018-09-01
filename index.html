@@ -9,10 +9,29 @@
     
 </head>
 <body>
+   <div>
+     <h1>Adivina un numero</h1>
 
-<script>    
-  console.log("Hola Mundo!!")
-</script>
+     <div>
+         <p>Seleccionemos un numero entre 1 y 10. Puedes adivinar en 5 intentos!!!</p>
+         <input type="text" name="numero" id="numero">
+         <p>Numeros Anteriores</p>
+         <p id="anteriores"></p>
+
+      
+         <input type="button" value="Enviar" onclick="adivinanumero()" id="inputSend">
+         <label id="intento"></label>
+         <label id="quedan"></label>
+         <div>
+             <p id="pista">----</p>
+         </div>
+
+     </div>
+     
+
+
+   </div>
+<script src="script/script.js"></script>
 </body>
 
 </html>
