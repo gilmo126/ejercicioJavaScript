@@ -1,0 +1,16 @@
+
+.uno, .dos{
+    width: 50%;
+    height: 120px;
+    background: #0d87c0;
+    padding: 10px;
+   /* display: inline-block;*/
+    float: left;
+}
+.container{
+    max-width: 1200px;
+    background: grey;
+    width: 100%;
+    height: 280px;
+}
+
